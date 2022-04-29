@@ -41,4 +41,4 @@ salary_preds = model.predict(x_predict)
 
 output = pd.DataFrame({'id': predict.id,
                        'salary': salary_preds})
-output.to_csv('submission1.csv', index=False)
+output.to_csv('Submission1/submission1.csv', index=False)
